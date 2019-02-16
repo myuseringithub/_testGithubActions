@@ -1,6 +1,6 @@
 workflow "Build" {
   resolves = ["Docker Tag"]
-  on = "create"
+  on = "push"
 }
 
 action "GitHub Action for Docker" {
